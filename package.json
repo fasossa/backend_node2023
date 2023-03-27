@@ -1,0 +1,35 @@
+{
+  "name": "backend_node",
+  "version": "1.0.0",
+  "description": "back node + angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node src/index.js",
+    "build": "babel src/ --out-dir dist",
+    "start": "node dist/index.js",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imbaq28/backend_node2023.git"
+  },
+  "author": "favio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imbaq28/backend_node2023/issues"
+  },
+  "homepage": "https://github.com/imbaq28/backend_node2023#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "sequelize-cli": "^6.6.0",
+    "vuepress": "^1.9.9"
+  },
+  "dependencies": {
+    "sequelize": "^6.30.0"
+  }
+}
