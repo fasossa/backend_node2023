@@ -1,0 +1,24 @@
+POST http://127.0.0.1:3000/api/auth/registro
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email":"admin2@mail.com" ,
+    "password":"admin123",
+    "username":"admin"
+}
+
+### Login
+POST http://127.0.0.1:3000/api/auth/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email":"admin2@mail.com" ,
+    "password":"admin123"    
+}
+### Perfil
+POST http://127.0.0.1:3000/api/auth/perfil
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiZW1haWwiOiJhZG1pbjJAbWFpbC5jb20iLCJ0aW1lIjoiMjAyMy0wMy0yOVQxMzo0MDozOS44NTZaIiwiaWF0IjoxNjgwMDk3MjM5LCJleHAiOjE2ODAxMDA4Mzl9.FDV4ZX8TQhixPZpk80uuAqjLMzuCIcBYXWeryg4yXYc
